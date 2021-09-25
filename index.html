@@ -1,0 +1,93 @@
+<!--
+Author: Ali Elbekov
+Class: CSC 337
+File:index.html
+Description: This is a HTML File
+for Programming Assignmnet #5
+This file handles the skeletal structure of
+"Welcome to Jumble",
+or in our case "Texas Encrpting"
+ -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Texas Encript</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+  <div class="wrapper">
+    <h1>Texas Encript</h1>
+    <div>
+    </div>
+    <div class="">
+      <input oninput="main()" type="text" name="item" id="item">
+    </div>
+    <div>
+      <p class="rangeNumber">0</p>
+    </div>
+    <div class="rangeDiv">
+      <input class="range" type="range" value="0" min="0" max="26" oninput="main()">
+    </div>
+    <div class="">
+      <img src="img/texasFlagStar.png" alt="Texas.png">
+    </div>
+    <button type="button" name="btn" onclick=updateBox();>Update box</button>
+    <table>
+      <tr>
+        <td>a</td>
+        <td>b</td>
+        <td>c</td>
+        <td>d</td>
+        <td>e</td>
+      </tr>
+      <tr>
+        <td>f</td>
+        <td>g</td>
+        <td>h</td>
+        <td>i</td>
+        <td>j</td>
+      </tr>
+      <tr>
+        <td>k</td>
+        <td>l</td>
+        <td>m</td>
+        <td>n</td>
+        <td>o</td>
+      </tr>
+      <tr>
+        <td>p</td>
+        <td>q</td>
+        <td>r</td>
+        <td>s</td>
+        <td>t</td>
+      </tr>
+      <tr>
+        <td>u</td>
+        <td>v</td>
+        <td>w</td>
+        <td>x</td>
+        <td>y</td>
+      </tr>
+    </table>
+  </div>
+  <div class="topOutput">
+    <div class="topInnerText">
+
+    </div>
+  </div>
+
+  <div class="bottomOutput">
+    <div class="bottomInnerText">
+    </div>
+    <script src="index.js">
+      < /div>
+    </script>
+</body>
+
+</html>
